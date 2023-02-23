@@ -1,14 +1,14 @@
 ﻿// Напишите программу, которая принимает на вход пятизначное число и проверяет, 
 // является ли оно палиндромом.
-Console.WriteLine("Введите первое число: ");
+Console.WriteLine("Введите первый элемент числа: ");
 int a = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите второе число: ");
+Console.WriteLine("Введите второй элемент числа: ");
 int b = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите третье число: ");
+Console.WriteLine("Введите третий элемент числа: ");
 int c = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите четвёртое число: ");
+Console.WriteLine("Введите четвёртый элемент числа: ");
 int d = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите пятое число: ");
+Console.WriteLine("Введите пятый элемент числа: ");
 int e = Convert.ToInt32(Console.ReadLine());
 if (a == e & b == d)
 {
